@@ -101,6 +101,17 @@ body {
     text-shadow: 1px 1px 5px rgba(0,0,0,0.7);
 }
 
+
+.shortcut-link {
+  color: blue;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.shortcut-link:hover {
+  color: darkblue;
+}
+
 /* Styling section untuk keunggulan */
 #keunggulan {
     padding: 20px;
