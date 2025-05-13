@@ -268,6 +268,10 @@ footer a:hover {
     flex: 0 0 33.3333%; /* 3 gambar per baris */
     padding: 10px;
     box-sizing: border-box;
+    @media (max-width: 768px) {
+  .pohon-slider img {
+    width: 90vw; /* Lebar jadi 90% dari layar */
+  }
 }
 
 /* Gambar di dalam item */
